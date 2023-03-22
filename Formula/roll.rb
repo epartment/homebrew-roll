@@ -58,11 +58,11 @@ end
 
 class Roll < Formula
   desc "RollDev is a CLI utility for working with docker-compose environments"
-  homepage "https://getroll.dev"
-  version "0.1.0-beta8"
-  url "https://github.com/dockergiant/rolldev/archive/0.1.0-beta8.tar.gz"
-  sha256 "7f096220e9c3b3b7a0de6791ad7eb6a8b0839e248c44b285ca16aecdc7385999"
-  head "https://github.com/dockergiant/rolldev.git", :branch => "develop"
+  homepage "https://www.getroll.dev"
+  version "0.1.0-beta9"
+  url "https://github.com/swiftotter/den/archive/0.1.0-beta9.tar.gz"
+  sha256 "605904f27d1e3390058b6eb0d78eb6bcda8dfa9362af87b77cad1f4db1471108"
+  head "https://github.com/dockergiant/rolldev.git", :branch => "main"
 
   depends_on DockerRequirement
   depends_on "gettext"
@@ -75,8 +75,8 @@ class Roll < Formula
   def caveats
     <<~EOS
       RollDev manages a set of global services on the docker host machine. You
-      will need to have Docker installed and docker-compose available in your
-      local $PATH configuration prior to starting RollDev.
+      will need to have Docker running and Docker Compose (>= 2.2.3) available in
+      your local $PATH configuration prior to starting RollDev.
 
       To start roll simply run:
         roll svc up
