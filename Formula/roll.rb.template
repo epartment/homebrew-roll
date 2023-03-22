@@ -60,7 +60,7 @@ class Roll < Formula
   desc "RollDev is a CLI utility for working with docker-compose environments"
   homepage "https://www.getroll.dev"
   version "${VERSION}"
-  url "https://github.com/swiftotter/den/archive/${VERSION}.tar.gz"
+  url "https://github.com/dockergiant/rolldev/archive/${VERSION}.tar.gz"
   sha256 "${HASH}"
   head "https://github.com/dockergiant/rolldev.git", :branch => "main"
 
