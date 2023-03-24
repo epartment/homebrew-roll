@@ -66,7 +66,12 @@ class Roll < Formula
 
   depends_on DockerRequirement
   depends_on "gettext"
-  depends_on "pv" => :recommended
+  depends_on "pv"
+  depends_on "gum"
+  depends_on "jq"
+  depends_on "perl"
+  depends_on "pgrep"
+  depends_on "dialog"
 
   def install
     prefix.install Dir["*"]
