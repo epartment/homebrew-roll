@@ -65,12 +65,12 @@ class Roll < Formula
   head "https://github.com/dockergiant/rolldev.git", :branch => "main"
 
   depends_on DockerRequirement
-  depends_on "gettext"
+  depends_on "gettext" if OS.mac?
   depends_on "pv"
   depends_on "gum"
   depends_on "jq"
-  depends_on "perl"
-  depends_on "pgrep"
+  depends_on "perl" if OS.mac?
+  depends_on "pgrep" if OS.mac?
   depends_on "dialog"
 
   def install
