@@ -8,7 +8,7 @@ class DockerRequirement < Requirement
 
   def message
     "Docker with Docker Compose >= #{COMPOSE_MIN_VERS} is " \
-    "required for Den. Please install Docker Desktop via brew with 'brew " \
+    "required for RollDev. Please install Docker Desktop via brew with 'brew " \
     "install --cask docker', download it from https://docker.com/ or use " \
     "your system package manager to install Docker Engine "\
     ">= #{DOCKER_MIN_VERS}"
