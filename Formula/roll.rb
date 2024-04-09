@@ -59,9 +59,9 @@ end
 class Roll < Formula
   desc "RollDev is a CLI utility for working with docker-compose environments"
   homepage "https://www.getroll.dev"
-  version "0.2.4"
-  url "https://github.com/dockergiant/rolldev/archive/0.2.4.tar.gz"
-  sha256 "f13c285af7dfb834ede8c58c8cf4f64f36d8af9d3a7b974e8192e3ac3eb17f09"
+  version "0.2.6"
+  url "https://github.com/dockergiant/rolldev/archive/0.2.6.tar.gz"
+  sha256 "995a59391865ce0695b2bfd0ecefed30f0e9c216f3b0e94e84fc10be9edf40ff"
   head "https://github.com/dockergiant/rolldev.git", :branch => "main"
 
   depends_on DockerRequirement
@@ -88,12 +88,12 @@ class Roll < Formula
 
       This command will automatically run "roll install" to setup a trusted
       local root certificate and sign an SSL certificate for use by services
-      managed by roll via the "roll rolsign-certificate roll.test" command.
+      managed by roll via the "roll roll sign-certificate roll.test" command.
 
       To print a complete list of available commands simply run "roll" without
       any arguments.
 
-      Documentation is available at: Not Yet Implemented
+      Documentation is available at: https://dockergiant.github.io/rolldev/
     EOS
   end
 end
