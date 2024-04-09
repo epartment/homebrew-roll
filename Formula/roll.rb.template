@@ -88,12 +88,12 @@ class Roll < Formula
 
       This command will automatically run "roll install" to setup a trusted
       local root certificate and sign an SSL certificate for use by services
-      managed by roll via the "roll rolsign-certificate roll.test" command.
+      managed by roll via the "roll roll sign-certificate roll.test" command.
 
       To print a complete list of available commands simply run "roll" without
       any arguments.
 
-      Documentation is available at: Not Yet Implemented
+      Documentation is available at: https://dockergiant.github.io/rolldev/
     EOS
   end
 end
