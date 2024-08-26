@@ -60,9 +60,9 @@ class Roll < Formula
   desc "RollDev is a CLI utility for working with docker-compose environments"
   homepage "https://www.getroll.dev"
   version "0.2.6.5"
-  url "https://github.com/dockergiant/rolldev/archive/0.2.6.5.tar.gz"
+  url "https://github.com/epartment/rolldev/archive/0.2.6.5.tar.gz"
   sha256 "1e53c7ba1c757bf8f034e4b67935b955d9d5cf276e40c3e891e6d9a46c90cd18"
-  head "https://github.com/dockergiant/rolldev.git", :branch => "main"
+  head "https://github.com/epartment/rolldev.git", :branch => "main"
 
   depends_on DockerRequirement
   depends_on "gettext" if OS.mac?
@@ -93,7 +93,7 @@ class Roll < Formula
       To print a complete list of available commands simply run "roll" without
       any arguments.
 
-      Documentation is available at: https://dockergiant.github.io/rolldev/
+      Documentation is available at: https://epartment.github.io/rolldev/
     EOS
   end
 end
