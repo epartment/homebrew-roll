@@ -59,9 +59,9 @@ end
 class Roll < Formula
   desc "RollDev is a CLI utility for working with docker-compose environments"
   homepage "https://www.getroll.dev"
-  version "0.4.0"
-  url "https://github.com/epartment/rolldev/archive/0.4.0.tar.gz"
-  sha256 "44b0fa296a5eb4c7d4009e294a219e0f9b8bb170d02b9750c1ba30c248571f6b"
+  version "0.4.1"
+  url "https://github.com/epartment/rolldev/archive/0.4.1.tar.gz"
+  sha256 "a1abfa11a36f563d4c69d9af93fab0e48db9f27821e2b7962d72f6a65a6d16cb"
   head "https://github.com/epartment/rolldev.git", :branch => "main"
 
   depends_on DockerRequirement
