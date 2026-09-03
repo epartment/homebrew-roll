@@ -61,7 +61,7 @@ class Roll < Formula
   homepage "https://www.getroll.dev"
   version "0.8.1"
   url "https://github.com/epartment/rolldev/archive/0.8.1.tar.gz"
-  sha256 "c14b7dd588e05ba6adeeff51d13cdd26b932b09de527661d4466cc4100b611a2"
+  sha256 "26e9174bceb1fa286c39c377baf57b7e77ade330db42dc8ccfa424c802530d0b"
   head "https://github.com/epartment/rolldev.git", :branch => "main"
 
   depends_on DockerRequirement
